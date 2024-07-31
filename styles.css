@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+
+    
+    color: #e0e0e0;
+}
+.line{
+    background-image: url(./pattern-divider-desktop.svg);
+}
+
+.quote-box {
+    background: hsl(217, 19%, 24%);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.quote {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.quote-id {
+    color: #5ad3a6;
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+    right: auto;
+}
+
+button {
+    background-color: #5ad3a6;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    /* box-shadow: 30px hsl(193, 38%, 86%); */
+    /* box-shadow: hsl(193, 38%, 86%) 10px 10px 10px 1px; */
+    box-shadow: 0 0 50px hsl(193, 38%, 86%);
+}
+
+
+
+@media (min-width: 600px) {
+    .quote-box {
+        max-width: 400px;
+        padding: 20px;
+    }
+    
+    .quote {
+        font-size: 18px;
+        font-weight: 800;
+        margin: 20px 0;
+    }
+    .line{
+        background-image: url(./pattern-divider-mobile.svg);
+    }
+    .quote-box {
+        padding: 28px 30px; 
+        font-size: 10px;
+    
+    }
+
+}
