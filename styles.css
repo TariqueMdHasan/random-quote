@@ -93,7 +93,7 @@ button:hover {
     .quote-box {
         padding: 28px 30px; 
         font-size: 10px;
-    
+        max-width: 80%;
     }
 
 }
